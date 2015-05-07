@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pattern"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal" >
+
+
+        <EditText
+
+            android:id="@+id/etEnteredText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textCapSentences"
+            android:ems="10"
+            android:hint="Text to be translated" >
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/ivSend"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:src="@android:drawable/ic_search_category_default"
+
+           />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:orientation="horizontal" >
+        <Spinner
+            android:id="@+id/sTobTranslated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <View
+            android:id= "@+id/view3"
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            />
+        <Spinner
+            android:id="@+id/sTranslateto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/tvLanguageEntered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="English"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivSpeakEntered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/ic_action_volume_on" />
+
+            <TextView
+                android:id="@+id/tvTextEntered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Hey"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id= "@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffd3d3d3" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvLanguageTranslated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Spanish"
+        android:layout_weight="2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="?android:selectableItemBackground"
+        android:id="@+id/SaveBtn"
+        android:src="@drawable/ic_action_save"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/CopyBtn"
+        android:src="@drawable/ic_action_copy"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ShareBtn"
+        android:src="@drawable/ic_action_share"
+        android:background="?android:selectableItemBackground"/>
+
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/ivSpeakTranslated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/ic_action_volume_on" />
+
+            <TextView
+                android:id="@+id/tvTextTranslated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Holla"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <View
+            android:id= "@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffd3d3d3" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ViewFav"
+                android:layout_width="wrap_content"
+                android:drawableLeft="@drawable/ic_action_save"
+                android:text="@string/savedtext"
+                android:background="?android:selectableItemBackground"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/E:/AndroidStudioProjects/Language%20Translator/AllLanguageTranslator_withFragment0/app/src/main/res/layout/trans_fragment.xml -->

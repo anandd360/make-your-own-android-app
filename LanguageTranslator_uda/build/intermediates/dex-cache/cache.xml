@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\build\intermediates\pre-dexed\debug\classes-0393108ac5678bfe97ab308891094dff5d4e012f.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\pre-dexed\debug\classes-b80532eb50cd64221bc2785aec933f07560876b1.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\libs\microsoft-translator-java-api-0.6.1-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ab0981a9cf0c30be42a5bbee9fd7da179d8a4ae">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\pre-dexed\debug\microsoft-translator-java-api-0.6.1-jar-with-dependencies-cfdc0e9f3a7bf902cca5a2d816dea66df51e7006.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\pre-dexed\debug\classes-09428aff5785c5811ffd0c73be2a29a8d32187c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\ANAND\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-d6320ab256534b0a1783fc31adbae7dd0fda23c1.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_Original\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c691ea6a7958ae8816dd232ed47d96644e00e84e.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\build\intermediates\pre-dexed\debug\classes-f507b88688138e9cc75057139aa1dcc2236d0254.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\libs\microsoft-translator-java-api-0.6.1-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ab0981a9cf0c30be42a5bbee9fd7da179d8a4ae">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\build\intermediates\pre-dexed\debug\microsoft-translator-java-api-0.6.1-jar-with-dependencies-1dbe64688de536e8dcad5d30e1fd7351cdb39883.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\AndroidStudioProjects\Language Translator\AllLanguageTranslator_withFragment0\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-fe799a49b5f6e07a96c097c78e63d76e47a6c80e.jar" />
+    </item>
+
+</items>

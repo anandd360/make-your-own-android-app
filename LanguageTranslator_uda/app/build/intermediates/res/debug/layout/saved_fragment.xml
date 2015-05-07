@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern"
+    android:id="@id/fragment_saved">
+
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/empty_text"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:hint="@string/del_text"/>
+
+        <ImageButton
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/ic_action_discard"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/E:/AndroidStudioProjects/Language%20Translator/AllLanguageTranslator_withFragment0/app/src/main/res/layout/saved_fragment.xml -->

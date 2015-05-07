@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/washi"
+    android:tileMode="repeat" /><!-- From: file:/E:/AndroidStudioProjects/Language%20Translator/AllLanguageTranslator_withFragment0/app/src/main/res/drawable/pattern.xml -->
